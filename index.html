@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>GoLocal — Travel Smart. Travel Safe. Travel Local.</title>
+<meta name="description" content="GoLocal is the all-in-one travel assistant for tourists: trusted services, transparent prices, multilingual support, and offline access." />
+<meta property="og:title" content="GoLocal — Explore Like a Local" />
+<meta property="og:description" content="All-in-one travel app for trusted services and transparent prices." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">
+      <span class="logo-mark">◈</span> GoLocal
+    </a>
+    <nav class="main-nav" id="mainNav">
+      <a href="features.html" data-i18n="nav.features">Features</a>
+      <a href="safety.html" data-i18n="nav.safety">Safety</a>
+      <a href="partners.html" data-i18n="nav.partners">Partners</a>
+      <a href="pricing.html" data-i18n="nav.pricing">Pricing</a>
+      <a href="about.html" data-i18n="nav.about">About</a>
+      <a href="contact.html" data-i18n="nav.contact">Contact</a>
+      <a href="demo.html" class="nav-demo" data-i18n="nav.demo">Live Demo</a>
+    </nav>
+    <div class="header-right">
+      <select id="langSwitcher" class="lang-switcher" aria-label="Language">
+        <option value="en">EN</option>
+        <option value="ru">RU</option>
+        <option value="az">AZ</option>
+        <option value="tr">TR</option>
+      </select>
+      <a href="download.html" class="btn btn-primary btn-sm" data-i18n="cta.download">Download</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+  <div class="container hero-inner">
+    <div class="hero-text">
+      <span class="kicker">
+        <span class="dot"></span>
+        <span data-i18n="hero.kicker">Your smart travel companion</span>
+      </span>
+      <h1 data-i18n="hero.title">Travel Smart.<br>Travel Safe.<br>Travel Local.</h1>
+      <p class="lead" data-i18n="hero.sub">GoLocal is the all-in-one app for tourists — trusted services, transparent prices, multilingual support, and offline access. Everything you need in one place.</p>
+      <div class="hero-cta">
+        <a href="download.html" class="btn btn-orange" data-i18n="cta.download">Download App →</a>
+        <a href="features.html" class="btn btn-ghost" data-i18n="cta.exploreFeatures">Explore Features</a>
+        <a href="demo.html" class="btn btn-mint" data-i18n="cta.tryDemo">✦ Try Live Demo</a>
+      </div>
+      <p class="tagline" data-i18n="hero.tagline">"Explore like a local. Travel like a pro."</p>
+    </div>
+
+    <!-- PHONE MOCKUP -->
+    <div class="phone-wrap">
+      <div class="phone">
+        <div class="phone-notch"></div>
+        <div class="phone-screen">
+          <div class="phone-status">9:41 ◉ ◉ ◉</div>
+          <div class="phone-greeting">
+            <div class="phone-hi">Salam, traveler 👋</div>
+            <div class="phone-loc">📍 Baku, Azerbaijan</div>
+          </div>
+          <div class="phone-search">🔍 Search anything…</div>
+          <div class="phone-grid">
+            <div class="tile tile-orange">🏨<br><b>Hotels</b></div>
+            <div class="tile tile-blue">🍽️<br><b>Eat</b></div>
+            <div class="tile tile-mint">🚕<br><b>Taxi</b></div>
+            <div class="tile tile-violet">📷<br><b>See</b></div>
+            <div class="tile tile-red">🆘<br><b>SOS</b></div>
+            <div class="tile tile-yellow">🗺️<br><b>Map</b></div>
+          </div>
+          <div class="phone-card">
+            <div><b>Old City Walking Tour</b><br><span class="muted">★ 4.9 · From 25 ₼</span></div>
+            <span class="badge-ok">Verified</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROBLEM -->
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <span class="kicker-dark" data-i18n="problem.kicker">The problem</span>
+      <h2 data-i18n="problem.title">Travelers face the same struggles everywhere</h2>
+      <p class="sub" data-i18n="problem.sub">Six pain points that make tourism stressful — and that GoLocal solves.</p>
+    </div>
+    <div class="grid-3">
+      <div class="card"><div class="card-icon">🌐</div><h3 data-i18n="problem.1.title">Language Barriers</h3><p data-i18n="problem.1.body">Menus, signs, and instructions in unfamiliar languages.</p></div>
+      <div class="card"><div class="card-icon">⚠️</div><h3 data-i18n="problem.2.title">Safety Concerns</h3><p data-i18n="problem.2.body">No clear info on what areas or services to trust.</p></div>
+      <div class="card"><div class="card-icon">💰</div><h3 data-i18n="problem.3.title">Hidden Prices</h3><p data-i18n="problem.3.body">Tourist taxes and inflated prices without warning.</p></div>
+      <div class="card"><div class="card-icon">🧭</div><h3 data-i18n="problem.4.title">Lost in the City</h3><p data-i18n="problem.4.body">Unreliable navigation and unfamiliar transit.</p></div>
+      <div class="card"><div class="card-icon">🔎</div><h3 data-i18n="problem.5.title">Scattered Info</h3><p data-i18n="problem.5.body">Info spread across many apps, blogs, and pages.</p></div>
+      <div class="card"><div class="card-icon">📵</div><h3 data-i18n="problem.6.title">Offline Gaps</h3><p data-i18n="problem.6.body">Apps useless without strong connectivity.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- SOLUTION -->
+<section class="section section-soft">
+  <div class="container">
+    <div class="section-head center">
+      <span class="kicker-dark" data-i18n="solution.kicker">The solution</span>
+      <h2 data-i18n="solution.title">One trusted app for every traveler</h2>
+      <p class="sub" data-i18n="solution.sub">Built around four pillars — designed to make travel effortless.</p>
+    </div>
+    <div class="grid-4">
+      <div class="card pill-orange"><div class="card-icon">✦</div><h3 data-i18n="solution.p1.title">All-in-One</h3><p data-i18n="solution.p1.body">Hotels, food, taxis, attractions, emergencies — together.</p></div>
+      <div class="card pill-trust"><div class="card-icon">✓</div><h3 data-i18n="solution.p2.title">Trusted Partners</h3><p data-i18n="solution.p2.body">Only verified, reviewed local businesses.</p></div>
+      <div class="card pill-mint"><div class="card-icon">≡</div><h3 data-i18n="solution.p3.title">Transparent Prices</h3><p data-i18n="solution.p3.body">No tourist surcharges. Real local rates.</p></div>
+      <div class="card"><div class="card-icon">⌁</div><h3 data-i18n="solution.p4.title">Offline-First</h3><p data-i18n="solution.p4.body">Maps, emergency info, and translations work offline.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section class="section">
+  <div class="container">
+    <div class="section-head between">
+      <div>
+        <span class="kicker-dark" data-i18n="features.kicker">Features</span>
+        <h2 data-i18n="features.title">Everything you need in one place</h2>
+        <p class="sub" data-i18n="features.sub">A taste of what's inside GoLocal.</p>
+      </div>
+      <a href="features.html" class="link-accent">See all 12 →</a>
+    </div>
+    <div class="grid-3">
+      <div class="card"><div class="card-icon">🏨</div><h3 data-i18n="feat.hotels">Hotels & Stays</h3><p data-i18n="feat.hotels.body">Verified rooms with honest reviews and clear pricing.</p></div>
+      <div class="card"><div class="card-icon">🍽️</div><h3 data-i18n="feat.restaurants">Restaurants</h3><p data-i18n="feat.restaurants.body">Local favorites with menus and tourist-friendly info.</p></div>
+      <div class="card"><div class="card-icon">🚕</div><h3 data-i18n="feat.taxis">Trusted Taxis</h3><p data-i18n="feat.taxis.body">Fixed prices, no haggling, GPS tracking.</p></div>
+      <div class="card"><div class="card-icon">📷</div><h3 data-i18n="feat.attractions">Attractions</h3><p data-i18n="feat.attractions.body">Top sights with stories, hours, and best times to visit.</p></div>
+      <div class="card"><div class="card-icon">🗺️</div><h3 data-i18n="feat.nav">Navigation</h3><p data-i18n="feat.nav.body">Walking, transit, and driving routes — even offline.</p></div>
+      <div class="card"><div class="card-icon">📞</div><h3 data-i18n="feat.emergency">Emergency Help</h3><p data-i18n="feat.emergency.body">One-tap access to police, ambulance, and embassies.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="section section-soft">
+  <div class="container">
+    <div class="section-head center">
+      <span class="kicker-dark" data-i18n="how.kicker">How it works</span>
+      <h2 data-i18n="how.title">Get started in four steps</h2>
+    </div>
+    <div class="grid-4 steps">
+      <div class="step"><div class="step-n">1</div><h3 data-i18n="how.1.title">Download</h3><p data-i18n="how.1.body">Get GoLocal free on iOS or Android.</p></div>
+      <div class="step"><div class="step-n">2</div><h3 data-i18n="how.2.title">Pick your city</h3><p data-i18n="how.2.body">Start with Baku, more cities coming.</p></div>
+      <div class="step"><div class="step-n">3</div><h3 data-i18n="how.3.title">Explore</h3><p data-i18n="how.3.body">Browse trusted services in your language.</p></div>
+      <div class="step"><div class="step-n">4</div><h3 data-i18n="how.4.title">Travel safe</h3><p data-i18n="how.4.body">Book, navigate, and get help in one tap.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- TRUST BANNER -->
+<section class="section">
+  <div class="container">
+    <div class="trust-banner">
+      <div class="trust-grid"></div>
+      <div class="trust-inner">
+        <div>
+          <span class="kicker light" data-i18n="trust.kicker">Built on trust</span>
+          <h2 class="light" data-i18n="trust.title">Your safety is our top priority</h2>
+          <p class="sub light" data-i18n="trust.sub">Every partner is vetted. Every price is transparent. Every emergency tool is one tap away.</p>
+          <a href="safety.html" class="btn btn-glass">Learn how we keep you safe →</a>
+        </div>
+        <div class="trust-cards">
+          <div class="trust-card"><b data-i18n="trust.1.title">Verified Partners</b><span data-i18n="trust.1.body">Manually reviewed businesses</span></div>
+          <div class="trust-card"><b data-i18n="trust.2.title">SOS Button</b><span data-i18n="trust.2.body">Emergency help in one tap</span></div>
+          <div class="trust-card"><b data-i18n="trust.3.title">Real Reviews</b><span data-i18n="trust.3.body">From verified travelers</span></div>
+          <div class="trust-card"><b data-i18n="trust.4.title">Privacy First</b><span data-i18n="trust.4.body">Your data stays yours</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DEMO BANNER -->
+<section class="section">
+  <div class="container">
+    <a href="demo.html" class="demo-banner">
+      <div>
+        <span class="kicker-mint">● Live Demo</span>
+        <h3 data-i18n="demo.banner.title">Try the Baku live demo</h3>
+        <p data-i18n="demo.banner.body">See how GoLocal works with a real city — built around Baku, Azerbaijan.</p>
+      </div>
+      <span class="btn btn-primary">Try Live Demo →</span>
+    </a>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="section">
+  <div class="container">
+    <div class="section-head center">
+      <span class="kicker-dark" data-i18n="test.kicker">Travelers love GoLocal</span>
+      <h2 data-i18n="test.title">What early users are saying</h2>
+    </div>
+    <div class="grid-3">
+      <div class="quote">"Finally, a travel app that actually works offline. Saved my trip!"<span>— Sarah, UK</span></div>
+      <div class="quote">"Transparent prices and verified taxis — I felt safe everywhere."<span>— Alexei, Russia</span></div>
+      <div class="quote">"Like having a local friend in my pocket."<span>— Mehmet, Turkey</span></div>
+    </div>
+    <p class="disclaimer">* Concept testimonials representing target audience feedback.</p>
+  </div>
+</section>
+
+<!-- DOWNLOAD CTA -->
+<section class="section">
+  <div class="container">
+    <div class="cta-banner">
+      <div class="cta-grid"></div>
+      <div class="cta-inner">
+        <div>
+          <span class="kicker light" data-i18n="download.kicker">Get the app</span>
+          <h2 class="light" data-i18n="download.title">Ready to travel smarter?</h2>
+          <p class="sub light" data-i18n="download.sub">Download GoLocal today and explore like a local.</p>
+          <div class="store-buttons">
+            <div class="store-btn"><span class="ribbon">Coming Soon</span> 🍎 <div><small>Download on</small><b>App Store</b></div></div>
+            <div class="store-btn"><span class="ribbon">Coming Soon</span> ▶ <div><small>Get it on</small><b>Google Play</b></div></div>
+          </div>
+        </div>
+        <div class="waitlist">
+          <b data-i18n="cta.joinWaitlist">Join the waitlist</b>
+          <p>We'll email you the moment GoLocal goes live.</p>
+          <form id="waitlistForm">
+            <input type="email" required placeholder="you@email.com" />
+            <button type="submit" class="btn btn-orange">Join</button>
+          </form>
+          <span class="form-msg" id="waitlistMsg"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <div class="logo logo-light">◈ GoLocal</div>
+      <p class="footer-tag">Travel smart. Travel safe. Travel local.</p>
+    </div>
+    <div>
+      <b>Product</b>
+      <a href="features.html">Features</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="download.html">Download</a>
+    </div>
+    <div>
+      <b>Company</b>
+      <a href="about.html">About</a>
+      <a href="partners.html">Partners</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div>
+      <b>Legal</b>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>© 2026 GoLocal. All rights reserved.</span>
+    <span>Starting in Baku 🇦🇿 — Going global soon.</span>
+  </div>
+</footer>
+
+<script src="i18n.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
