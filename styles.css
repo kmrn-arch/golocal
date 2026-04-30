@@ -298,7 +298,6 @@ img{max-width:100%;display:block}
 .pricing-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.5rem;margin-top:3rem}
 .price-card{background:var(--card);border:2px solid var(--border);border-radius:1.25rem;padding:2rem;display:flex;flex-direction:column;gap:1rem}
 .price-card.featured{border-color:var(--orange);box-shadow:var(--shadow-glow);position:relative}
-.price-card.featured::before{content:"Most Popular";position:absolute;top:-12px;left:50%;transform:translateX(-50%);background:var(--gradient-orange);color:#fff;font-size:.7rem;font-weight:700;padding:.3rem .85rem;border-radius:999px;text-transform:uppercase;letter-spacing:.1em}
 .price-name{font-family:"Sora";font-weight:700;font-size:1.3rem}
 .price-amount{font-family:"Sora";font-size:2.5rem;font-weight:800;color:var(--trust)}
 .price-amount small{font-size:1rem;color:var(--muted);font-weight:500}
